@@ -1,0 +1,290 @@
+@media screen and (max-width: 1024px) {
+  .hero-section p{
+    font-size: 1.8rem;
+  }
+
+
+}
+
+  @media screen and (max-width: 991px) {
+    .topbarimg {
+        text-align: center;
+        justify-content: center;
+    }
+    .header {
+      height: 130rem;
+    }
+    /* .topbar img{
+        margin-left: 0;
+      } */
+      .topbar-text{
+      text-align: end;
+      }
+      .hero-section .order {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .hero-section .card input{
+        padding:1rem !important;
+      }
+      .hero-section .card textarea{
+        padding:1rem !important;
+      }
+      .hero-section .card select{
+        padding:1rem !important;
+      }
+      .d-md-flex{
+         display: flex;
+         flex-direction: row;
+        gap: 0.5rem;
+         }
+         .nav-pills .nav-link{
+          width: 100%;
+          }
+         
+      .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        width: 100%;
+
+        }
+        .navTabs  button{
+          margin: 0 1.5rem 0 0;
+        }
+        .modal-content{
+          width: 100%;
+        position: relative;
+        right: 0rem;
+        }
+        .contact-form h2{
+          font-size: 2.5rem ;
+          font-weight: 700;
+      }
+      button{
+        background-color: var(--orange-dark);
+        padding: 1rem 1rem 1rem 1rem;
+        font-size: 1.6rem;
+      }
+      button{
+        background-color: var(--orange-dark);
+        padding: 1.3rem 3rem 1.3rem 3rem;
+        font-size: 2rem;
+      }
+      #customModal .modal-content{
+        margin-left: 25%;
+    
+      }
+      /* Course */
+      .courseContainer .card{
+        width: 47%;
+      }
+     
+        
+}
+  @media screen and (max-width: 768px) {
+    .topbar-text{
+        display: none;
+      }
+      .btn2{
+        display: block;
+        margin-left: 45%;
+        width: 15rem;
+      }
+      .hero-section p{
+        font-size: 1.7rem;
+      }
+      .hero-section li{
+        font-size: 1.7rem;
+  
+      }
+      /* .header {
+        height: 100rem;
+      } */
+      .buttonTabs{
+        margin-left: 10rem;
+      }
+      .payment-img{
+        margin-top: 4rem;
+      }
+      .testiMonial p{
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 600;
+      }
+      .testiMonial{
+        padding: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+      }
+      .offer h2{
+        font-size: 4.5rem;
+        font-weight: 600;
+        color: var(--orange-dark);
+      }
+      .offer h2 span{
+        color: var(--white);
+      }
+      .offer p{
+        color: var(--white);
+        font-size: 2.2rem;
+        font-weight: 500;
+      }
+    
+
+
+     
+     
+  }
+
+  @media screen and (max-width: 576px) {
+    .btn1{
+        width: 150px;
+    }
+   
+    .navicon{
+        width: 100px;
+    }
+    .btn2{
+        margin-left: 40%;
+      }
+      .padding{
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .header {
+        height: 140rem;
+      }
+      .tabButtons{
+        position: relative;
+        right: 5rem;
+      }
+      .nav-pills .nav-link{
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 1rem 0.2rem 1rem 0.2rem;
+
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+          width: 100%;
+          font-size: 1.6rem;
+          padding: 1rem 0.2rem 1rem 0.2rem;
+  
+          }
+
+          .navTabs  button{
+            margin: 0 0.5rem 0 0;
+            
+          }
+          .container{
+            width: 100% !important; 
+          }
+          
+          .qualityAssignment .container{
+           
+            padding: 1rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+          }
+          .onlineAssignment{
+            padding: 0;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+          }
+          .topQuality{
+        
+            padding: 1rem;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+          }
+          .footer{
+        
+            padding: 1rem;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+          }
+
+          .testiMonial .qoute{
+            font-size: 4rem;
+            font-weight: 800;
+            color: var(--orange-dark);
+            position: absolute;
+            z-index: 99;
+            left: 0rem;
+            top: -3rem;
+          }
+          /* offer  */
+          .offer .text-sm-end{
+            justify-content: end;
+            text-align: end;
+          }
+          .offer h2{
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--orange-dark);
+          }
+          .offer p{
+            color: var(--white);
+            font-size: 1.8rem;
+            font-weight: 400;
+          }
+          #customModal .modal-content{
+            margin-left: 15%;
+          }
+          .courseContainer .card{
+            width: 100%;
+          }
+          .heroleft img {
+            height: 200px;
+           
+          } 
+          .head h2{
+            font-size: 2.6rem;
+          }
+          .onlineAssignment h2{
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--orange-dark);
+          }
+        
+  }
+  @media screen and (max-width: 375px) {
+    .header {
+      height: 145rem;
+    }
+    .hero-section li{
+      font-size: 1.6rem;
+
+    }
+    .offer h2{
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--orange-dark);
+    }
+    .offer p{
+      color: var(--white);
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+    .heroleft img {
+      height: 200px;
+      width: 200px;
+     
+    } 
+  }
+
+  @media screen and (max-width: 320px) {
+
+    .btn2{
+        margin-left: 30%;
+      }
+      /* .header {
+        height: 155rem;
+      } */
+      .testiMonial .qoute{
+       
+        left: 5rem;
+      }
+
+  }
+
+ 

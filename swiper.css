@@ -1,0 +1,22 @@
+/* .swiper {
+    width: 100%;
+    height: 100%;
+  } */
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-container-free-mode > .swiper-wrapper{
+    transition-timing-function : linear;
+  }
+
+  .testiMonial .swiper-slide img{
+    display: block;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+   
+  }

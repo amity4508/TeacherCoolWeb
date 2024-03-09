@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --orange: rgb(250, 147, 51);
+    --orange-dark: rgb(219, 112, 23);
+    --sky-blue:rgb(15, 161, 167);
+    --sky-blue-dark:rgb(8, 161, 167);
+    --white:white;
+    --black:rgb(44, 44, 44);
+    --dark-blue:#1c3669;
+    --gray:rgb(218, 218, 218);
+  }
+  html{
+    font-size:10px;
+  }
+  .navbar2{
+    background-color: var(--dark-blue);
+    border-bottom: 0.1rem solid var(--white);
+}
+.header-contact{
+    background-color: var(--black);
+}
+/* Contact hero  */
+.contact{
+    background-color: var(--dark-blue);
+    padding: 3rem;
+}
+.contact h1{
+    color: var(--white);
+    font-size: 2.8rem;
+}
+
+.contact .nav-link{
+    margin-right: 1rem;
+
+}
+.contact-form{
+  margin-top: 4rem;
+  padding-bottom: 10rem;
+}
+.contact-form h2{
+    font-size: 2.5rem ;
+    font-weight: 700;
+    color: rgb(83, 83, 83);
+}
+.contact-form p{
+    font-size: 1.6rem;
+
+}
+.contact-form a{
+    color: var(--black);
+}
+.contact-left{
+    margin-top: 8rem;
+}
+.contact-form input{
+    padding: 1rem;
+  }
+  .contact-form ::placeholder{
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .textarea{
+    width: 100%;
+    border: none;
+  }
+
+.map{
+    margin-top: 7rem;
+}
+
+/* About page css ------------------------------------ */
+.about{
+  background-color: var(--dark-blue);
+  padding: 3rem 0 12rem 0;
+  background-image: url('images2/about/asset02.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  filter: blur(100%);
+  
+}
+.about h3{
+  font-size: 1.8rem;
+  color: var(--white);
+
+}
+
+.about-content{
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.about-content h2{
+  color: var(--orange-dark);
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 6rem;
+}
+.about-content p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: rgb(61, 61, 61);
+}
+.hr3{
+  border-bottom:0.01rem solid var(--orange-dark);
+  margin-top: 5rem;
+}
+.about-content .rowmargin{
+  margin-top: 12rem;
+
+}
